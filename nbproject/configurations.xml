@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Display" projectFiles="true">
+        <itemPath>src/Display/glwidget.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Geometry" projectFiles="true">
+        <itemPath>src/Geometry/GlGlyph.h</itemPath>
+        <itemPath>src/Geometry/Grid.h</itemPath>
+        <itemPath>src/Geometry/Primitives.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="GUI" projectFiles="true">
+        <itemPath>src/GUI/MethodChooseDialog.h</itemPath>
+        <itemPath>src/GUI/PhaseVis.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Model" projectFiles="true">
+        <logicalFolder name="f1" displayName="Methods" projectFiles="true">
+          <logicalFolder name="f1" displayName="Data Generators" projectFiles="true">
+            <itemPath>src/Model/Methods/GenerateAndronovHopf.h</itemPath>
+            <itemPath>src/Model/Methods/GenerateMorrisLecar.h</itemPath>
+            <itemPath>src/Model/Methods/GenerateVanDerPol.h</itemPath>
+            <itemPath>src/Model/Methods/GenerateVanDerPolDuffing.h</itemPath>
+          </logicalFolder>
+          <itemPath>src/Model/Methods/ColorMapper.h</itemPath>
+          <itemPath>src/Model/Methods/DyeTracking.h</itemPath>
+          <itemPath>src/Model/Methods/F.h</itemPath>
+          <itemPath>src/Model/Methods/Glyphs.h</itemPath>
+          <itemPath>src/Model/Methods/GridImporter.h</itemPath>
+          <itemPath>src/Model/Methods/Isochron.h</itemPath>
+          <itemPath>src/Model/Methods/LineIntegralConvolution.h</itemPath>
+          <itemPath>src/Model/Methods/Streamline.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Tree Model" projectFiles="true">
+          <itemPath>src/Model/Tree Model/LayerManager.h</itemPath>
+          <itemPath>src/Model/Tree Model/OptionModel.h</itemPath>
+          <itemPath>src/Model/Tree Model/TreeItem.h</itemPath>
+          <itemPath>src/Model/Tree Model/TreeModel.h</itemPath>
+        </logicalFolder>
+        <itemPath>src/Model/MethodCreator.h</itemPath>
+      </logicalFolder>
+      <itemPath>src/Defines.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>src/GUI/MethodChooseDialog.ui</itemPath>
+      <itemPath>src/GUI/PhaseVis.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Display" projectFiles="true">
+        <itemPath>src/Display/glwidget.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Geometry" projectFiles="true">
+        <itemPath>src/Geometry/GlGlyph.cpp</itemPath>
+        <itemPath>src/Geometry/Grid.cpp</itemPath>
+        <itemPath>src/Geometry/Primitives.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="GUI" projectFiles="true">
+        <itemPath>src/GUI/MethodChooseDialog.cpp</itemPath>
+        <itemPath>src/GUI/PhaseVis.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="Model" projectFiles="true">
+        <logicalFolder name="f1" displayName="Methods" projectFiles="true">
+          <logicalFolder name="f1" displayName="Data Generators" projectFiles="true">
+            <itemPath>src/Model/Methods/GenerateAndronovHopf.cpp</itemPath>
+            <itemPath>src/Model/Methods/GenerateMorrisLecar.cpp</itemPath>
+            <itemPath>src/Model/Methods/GenerateVanDerPol.cpp</itemPath>
+            <itemPath>src/Model/Methods/GenerateVanDerPolDuffing.cpp</itemPath>
+          </logicalFolder>
+          <itemPath>src/Model/Methods/ColorMapper.cpp</itemPath>
+          <itemPath>src/Model/Methods/DyeTracking.cpp</itemPath>
+          <itemPath>src/Model/Methods/F.cpp</itemPath>
+          <itemPath>src/Model/Methods/Glyphs.cpp</itemPath>
+          <itemPath>src/Model/Methods/GridImporter.cpp</itemPath>
+          <itemPath>src/Model/Methods/Isochron.cpp</itemPath>
+          <itemPath>src/Model/Methods/LineIntegralConvolution.cpp</itemPath>
+          <itemPath>src/Model/Methods/Streamline.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="Tree Model" projectFiles="true">
+          <itemPath>src/Model/Tree Model/LayerManager.cpp</itemPath>
+          <itemPath>src/Model/Tree Model/OptionModel.cpp</itemPath>
+          <itemPath>src/Model/Tree Model/TreeItem.cpp</itemPath>
+          <itemPath>src/Model/Tree Model/TreeModel.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>src/Model/MethodCreator.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <version>1.0-rc1</version>
+        <modules>core gui opengl</modules>
+        <mocDir>moc</mocDir>
+        <rccDir>rcc</rccDir>
+        <uiDir>ui</uiDir>
+      </qt>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs glu`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glproto`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="src/Defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Display/glwidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Display/glwidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/GlGlyph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/GlGlyph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/Primitives.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/Primitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/MethodCreator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/MethodCreator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/ColorMapper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/ColorMapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/DyeTracking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/DyeTracking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/F.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/F.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateAndronovHopf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateAndronovHopf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateMorrisLecar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateMorrisLecar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPol.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPol.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPolDuffing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPolDuffing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Glyphs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Glyphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GridImporter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GridImporter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Isochron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Isochron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/LineIntegralConvolution.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/LineIntegralConvolution.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Streamline.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Streamline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/LayerManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/LayerManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/OptionModel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/OptionModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <destdir>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}</destdir>
+        <buildMode>1</buildMode>
+        <modules>core gui opengl</modules>
+        <mocDir>moc</mocDir>
+        <rccDir>rcc</rccDir>
+        <uiDir>ui</uiDir>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>src/Display</pElem>
+            <pElem>src/Geometry</pElem>
+            <pElem>src/GUI</pElem>
+            <pElem>src/Model</pElem>
+            <pElem>src/Model/Methods</pElem>
+            <pElem>src/Model/Tree Model</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs glu`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glproto`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="src/Defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Display/glwidget.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Display/glwidget.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/MethodChooseDialog.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/GUI/PhaseVis.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/GlGlyph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/GlGlyph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/Grid.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Geometry/Primitives.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Geometry/Primitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/MethodCreator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/MethodCreator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/ColorMapper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/ColorMapper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/DyeTracking.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/DyeTracking.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/F.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/F.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateAndronovHopf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateAndronovHopf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateMorrisLecar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateMorrisLecar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPol.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPol.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPolDuffing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GenerateVanDerPolDuffing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Glyphs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Glyphs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GridImporter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/GridImporter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Isochron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Isochron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/LineIntegralConvolution.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/LineIntegralConvolution.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Streamline.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Methods/Streamline.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/LayerManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/LayerManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/OptionModel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/OptionModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeItem.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeItem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeModel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Model/Tree Model/TreeModel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
